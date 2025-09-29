@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0db60f61e1c69a1a9702b3108717c9ff {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0db60f61e1c69a1a9702b3108717c9ff" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0db60f61e1c69a1a9702b3108717c9ff = L.map(
+                "map_0db60f61e1c69a1a9702b3108717c9ff",
+                {
+                    center: [33.2470808, 126.5644589],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a9d8438a8dd1040fbe445a242dd68cbb = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a9d8438a8dd1040fbe445a242dd68cbb.addTo(map_0db60f61e1c69a1a9702b3108717c9ff);
+        
+    
+            var marker_706a29eccf05dabb8439f0378b7286fe = L.marker(
+                [33.2470808, 126.5644589],
+                {
+}
+            ).addTo(map_0db60f61e1c69a1a9702b3108717c9ff);
+        
+    
+            var icon_03bc904ab30f665e0d2040af2ac8d3c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ecef1c5ca51852ee85c972b79b599d87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0398ac5d55d1a31c6b7b5a26fb7d672 = $(`<div id="html_e0398ac5d55d1a31c6b7b5a26fb7d672" style="width: 100.0%; height: 100.0%;">2025 서귀포 원도심 문화 페스티벌</div>`)[0];
+                popup_ecef1c5ca51852ee85c972b79b599d87.setContent(html_e0398ac5d55d1a31c6b7b5a26fb7d672);
+            
+        
+
+        marker_706a29eccf05dabb8439f0378b7286fe.bindPopup(popup_ecef1c5ca51852ee85c972b79b599d87)
+        ;
+
+        
+    
+    
+                marker_706a29eccf05dabb8439f0378b7286fe.setIcon(icon_03bc904ab30f665e0d2040af2ac8d3c7);
+            
+    
+            var marker_21541f30d21cd0ac1e4bc40ff4927189 = L.marker(
+                [33.4918468, 126.5238514],
+                {
+}
+            ).addTo(map_0db60f61e1c69a1a9702b3108717c9ff);
+        
+    
+            var icon_7c3032b54ac5cbb1c275d8d631d3caba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a2bd20de8f459a9e7c0d8ed4e9c40d4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bc662ca8bc5929821046adcada4db29 = $(`<div id="html_9bc662ca8bc5929821046adcada4db29" style="width: 100.0%; height: 100.0%;">제17회 범도민 안전체험 한마당</div>`)[0];
+                popup_a2bd20de8f459a9e7c0d8ed4e9c40d4b.setContent(html_9bc662ca8bc5929821046adcada4db29);
+            
+        
+
+        marker_21541f30d21cd0ac1e4bc40ff4927189.bindPopup(popup_a2bd20de8f459a9e7c0d8ed4e9c40d4b)
+        ;
+
+        
+    
+    
+                marker_21541f30d21cd0ac1e4bc40ff4927189.setIcon(icon_7c3032b54ac5cbb1c275d8d631d3caba);
+            
+    
+            var marker_edc9d49effb143fb6ea51ea65c515646 = L.marker(
+                [33.5141372, 126.5277779],
+                {
+}
+            ).addTo(map_0db60f61e1c69a1a9702b3108717c9ff);
+        
+    
+            var icon_5587cc742664ce8420f21d791f6fa032 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_73bb7a452f3058916d74402fd6963059 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98eb2c8c8847fa3cca6a4bec3353833b = $(`<div id="html_98eb2c8c8847fa3cca6a4bec3353833b" style="width: 100.0%; height: 100.0%;">제 8회 하하페스티벌</div>`)[0];
+                popup_73bb7a452f3058916d74402fd6963059.setContent(html_98eb2c8c8847fa3cca6a4bec3353833b);
+            
+        
+
+        marker_edc9d49effb143fb6ea51ea65c515646.bindPopup(popup_73bb7a452f3058916d74402fd6963059)
+        ;
+
+        
+    
+    
+                marker_edc9d49effb143fb6ea51ea65c515646.setIcon(icon_5587cc742664ce8420f21d791f6fa032);
+            
+    
+            var marker_da21776d5c79992ce9f7ff9b0bc8c667 = L.marker(
+                [33.2430773, 126.5601406],
+                {
+}
+            ).addTo(map_0db60f61e1c69a1a9702b3108717c9ff);
+        
+    
+            var icon_a442546cb630c761964ddeb0936d0a58 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20b445dbf0a64df2678523260313929c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63a64f07c097e441ccdd166a0af64e27 = $(`<div id="html_63a64f07c097e441ccdd166a0af64e27" style="width: 100.0%; height: 100.0%;">무브먼트 코리아 인 서귀포</div>`)[0];
+                popup_20b445dbf0a64df2678523260313929c.setContent(html_63a64f07c097e441ccdd166a0af64e27);
+            
+        
+
+        marker_da21776d5c79992ce9f7ff9b0bc8c667.bindPopup(popup_20b445dbf0a64df2678523260313929c)
+        ;
+
+        
+    
+    
+                marker_da21776d5c79992ce9f7ff9b0bc8c667.setIcon(icon_a442546cb630c761964ddeb0936d0a58);
+            
+    
+            var marker_3f157c9f04e85765b37b885377ab07d0 = L.marker(
+                [33.4862394, 126.4992442],
+                {
+}
+            ).addTo(map_0db60f61e1c69a1a9702b3108717c9ff);
+        
+    
+            var icon_e92699a2666c97cc2f166853c9994b8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d36ad8fd17c469bcc42728e628e842c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_beb8811425784daf18411ae0e794e243 = $(`<div id="html_beb8811425784daf18411ae0e794e243" style="width: 100.0%; height: 100.0%;">2025 두 발과 두 바퀴로 더 푸른 제주</div>`)[0];
+                popup_d36ad8fd17c469bcc42728e628e842c5.setContent(html_beb8811425784daf18411ae0e794e243);
+            
+        
+
+        marker_3f157c9f04e85765b37b885377ab07d0.bindPopup(popup_d36ad8fd17c469bcc42728e628e842c5)
+        ;
+
+        
+    
+    
+                marker_3f157c9f04e85765b37b885377ab07d0.setIcon(icon_e92699a2666c97cc2f166853c9994b8e);
+            
+    
+            var marker_17f47a55805f036a61f7888e2d9d4b01 = L.marker(
+                [33.2505064, 126.6215119],
+                {
+}
+            ).addTo(map_0db60f61e1c69a1a9702b3108717c9ff);
+        
+    
+            var icon_06b5a7c2618dd1c64d1fa01229ad0823 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d126bbd81904aad3c8281ab72a483250 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a4fdf1a972e5b7525360a05b4fda091 = $(`<div id="html_3a4fdf1a972e5b7525360a05b4fda091" style="width: 100.0%; height: 100.0%;">제 21회 쇠소깍축제</div>`)[0];
+                popup_d126bbd81904aad3c8281ab72a483250.setContent(html_3a4fdf1a972e5b7525360a05b4fda091);
+            
+        
+
+        marker_17f47a55805f036a61f7888e2d9d4b01.bindPopup(popup_d126bbd81904aad3c8281ab72a483250)
+        ;
+
+        
+    
+    
+                marker_17f47a55805f036a61f7888e2d9d4b01.setIcon(icon_06b5a7c2618dd1c64d1fa01229ad0823);
+            
+    
+            var marker_c288aa5224b66899ca2aa7b6ee72bc2b = L.marker(
+                [33.5140021, 126.5218052],
+                {
+}
+            ).addTo(map_0db60f61e1c69a1a9702b3108717c9ff);
+        
+    
+            var icon_13d5efdd57a7a9fedfcc99b60777b939 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_12569a0e4bbd00197811652231f2e26e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b802fe03323daca3632195d00e75294 = $(`<div id="html_2b802fe03323daca3632195d00e75294" style="width: 100.0%; height: 100.0%;">펠롱펠롱 빛 모드락</div>`)[0];
+                popup_12569a0e4bbd00197811652231f2e26e.setContent(html_2b802fe03323daca3632195d00e75294);
+            
+        
+
+        marker_c288aa5224b66899ca2aa7b6ee72bc2b.bindPopup(popup_12569a0e4bbd00197811652231f2e26e)
+        ;
+
+        
+    
+    
+                marker_c288aa5224b66899ca2aa7b6ee72bc2b.setIcon(icon_13d5efdd57a7a9fedfcc99b60777b939);
+            
+    
+            var marker_b4982f38c72b66e778da3c54be8a3eb0 = L.marker(
+                [33.2438358, 126.5598383],
+                {
+}
+            ).addTo(map_0db60f61e1c69a1a9702b3108717c9ff);
+        
+    
+            var icon_f59636fe6b765113ee0ddd6b719217b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a0463a3087a01423c99e9b0e3535749b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e479715d266d97aa32b6b3d1e76b1747 = $(`<div id="html_e479715d266d97aa32b6b3d1e76b1747" style="width: 100.0%; height: 100.0%;">제 31회 서귀포칠십리축제</div>`)[0];
+                popup_a0463a3087a01423c99e9b0e3535749b.setContent(html_e479715d266d97aa32b6b3d1e76b1747);
+            
+        
+
+        marker_b4982f38c72b66e778da3c54be8a3eb0.bindPopup(popup_a0463a3087a01423c99e9b0e3535749b)
+        ;
+
+        
+    
+    
+                marker_b4982f38c72b66e778da3c54be8a3eb0.setIcon(icon_f59636fe6b765113ee0ddd6b719217b2);
+            
+    
+            var marker_6c0575e9fb7210487d651e4f3e8dd6b3 = L.marker(
+                [33.5179236, 126.5242565],
+                {
+}
+            ).addTo(map_0db60f61e1c69a1a9702b3108717c9ff);
+        
+    
+            var icon_c22aa52855ff047e991725d7a1b2d6d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e0da03ec12c636548ff2a989c8478978 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30bfa86261aa52a2e7e3830d8a190684 = $(`<div id="html_30bfa86261aa52a2e7e3830d8a190684" style="width: 100.0%; height: 100.0%;">제 64회 탐라문화제</div>`)[0];
+                popup_e0da03ec12c636548ff2a989c8478978.setContent(html_30bfa86261aa52a2e7e3830d8a190684);
+            
+        
+
+        marker_6c0575e9fb7210487d651e4f3e8dd6b3.bindPopup(popup_e0da03ec12c636548ff2a989c8478978)
+        ;
+
+        
+    
+    
+                marker_6c0575e9fb7210487d651e4f3e8dd6b3.setIcon(icon_c22aa52855ff047e991725d7a1b2d6d8);
+            
+    
+            var marker_1d68b011e268f66905f09854c06101d9 = L.marker(
+                [33.2859808, 126.5637555],
+                {
+}
+            ).addTo(map_0db60f61e1c69a1a9702b3108717c9ff);
+        
+    
+            var icon_51c317c075452488f7732504d6767d9d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d0664e2eff17a1fd41304bc5dbf9eef4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8450c5a74d1b428a65a963a7d7048895 = $(`<div id="html_8450c5a74d1b428a65a963a7d7048895" style="width: 100.0%; height: 100.0%;">2025 영천동해바라기축제</div>`)[0];
+                popup_d0664e2eff17a1fd41304bc5dbf9eef4.setContent(html_8450c5a74d1b428a65a963a7d7048895);
+            
+        
+
+        marker_1d68b011e268f66905f09854c06101d9.bindPopup(popup_d0664e2eff17a1fd41304bc5dbf9eef4)
+        ;
+
+        
+    
+    
+                marker_1d68b011e268f66905f09854c06101d9.setIcon(icon_51c317c075452488f7732504d6767d9d);
+            
+    
+            var marker_844c58bd0674a4b4b71ec33219ce7733 = L.marker(
+                [33.4580508, 126.4180882],
+                {
+}
+            ).addTo(map_0db60f61e1c69a1a9702b3108717c9ff);
+        
+    
+            var icon_30fb4f856f4bf8c20382afc7c118c40a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2ba1b91ad28c1bf20d4e600730a52524 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5a397ba932ff8fd371dfc6f01d16562 = $(`<div id="html_d5a397ba932ff8fd371dfc6f01d16562" style="width: 100.0%; height: 100.0%;">2025 제주올레걷기축제</div>`)[0];
+                popup_2ba1b91ad28c1bf20d4e600730a52524.setContent(html_d5a397ba932ff8fd371dfc6f01d16562);
+            
+        
+
+        marker_844c58bd0674a4b4b71ec33219ce7733.bindPopup(popup_2ba1b91ad28c1bf20d4e600730a52524)
+        ;
+
+        
+    
+    
+                marker_844c58bd0674a4b4b71ec33219ce7733.setIcon(icon_30fb4f856f4bf8c20382afc7c118c40a);
+            
+    
+            var marker_09a32b4a660daef58580ca58832dedd6 = L.marker(
+                [33.51814757, 126.5239547],
+                {
+}
+            ).addTo(map_0db60f61e1c69a1a9702b3108717c9ff);
+        
+    
+            var icon_d2c0f90b296b5c546369f638f8b8e7d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8022bae446406fbfc1d91f193fb5b3a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a0b264622f41ab6ee746fcd59f9d8e1 = $(`<div id="html_5a0b264622f41ab6ee746fcd59f9d8e1" style="width: 100.0%; height: 100.0%;">탐라문화제</div>`)[0];
+                popup_8022bae446406fbfc1d91f193fb5b3a9.setContent(html_5a0b264622f41ab6ee746fcd59f9d8e1);
+            
+        
+
+        marker_09a32b4a660daef58580ca58832dedd6.bindPopup(popup_8022bae446406fbfc1d91f193fb5b3a9)
+        ;
+
+        
+    
+    
+                marker_09a32b4a660daef58580ca58832dedd6.setIcon(icon_d2c0f90b296b5c546369f638f8b8e7d8);
+            
+</script>
+</html>
